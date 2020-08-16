@@ -1,0 +1,31 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif; 
+  /*this background property we took from css tricks background image*/
+  background: url(key.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ 
+h1{
+	font-size:3rem;
+	color:#fffcfc;
+}
+hr{
+	border-color:grey;
+	border-width:3px;
+	max-width: 65px;
+}
+.btn{
+	font-weight:700;
+	border-radius: 300px;
+	text-transform:uppercase;
+	border-color:black;
+}
+.btn-dark:hover{
+	background-color:grey;
+}
